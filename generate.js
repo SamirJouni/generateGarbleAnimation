@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const collectCharsInArr = require('./scripts/collectCharsInArr');
-const lottery = require('./scripts/lottery');
 const renderFiles = require('./scripts/renderFiles');
 
 // Read Configuration
@@ -12,6 +11,6 @@ const chars = collectCharsInArr(fs, path, config.alphabets);
 const charsLength = chars.length;
 
 // Render html and css to files
-renderFiles(fs, path, config, chars, charsLength, lottery);
+renderFiles(fs, path, config, chars, charsLength);
 
 

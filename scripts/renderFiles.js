@@ -1,8 +1,9 @@
+const lottery = require('./lottery');
 const renderHtml = require('./renderHtml');
 const renderCss = require('./renderCss');
 const writeToFile = require('./writeToFile');
 
-const renderFiles = (fs, path, config, chars, charsLength, lottery) => {
+const renderFiles = (fs, path, config, chars, charsLength) => {
 	const { color, shadowColor, backgroundColor, text, depth } = config;
 
 	const textChars = text.replace(/\s/g,'');
