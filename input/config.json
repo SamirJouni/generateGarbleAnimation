@@ -1,0 +1,8 @@
+{
+	"color": "#4D8C60",
+	"shadowColor": "#85D79E",
+	"backgroundColor": "black",
+	"text": "All Ghillied Up",
+	"depth": 5,
+	"alphabets": ["russian", "arabic", "phoenician", "hebrew", "hiragana", "katakana", "sanskrit", "english"]
+}
